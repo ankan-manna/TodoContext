@@ -7,7 +7,7 @@ function TodoForm() {
 
     const add=(e)=>{
         e.preventDefault();
-        //if(!mytodo.length) return;
+        if(!mytodo.length) return;
         addTodo({
             id:Date.now(),
             todo:mytodo,
